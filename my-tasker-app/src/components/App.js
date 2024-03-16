@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import Header from './Header';
+import TaskList from './TaskList';
+import CompletionStatusBar from "./CompletionStatusBar";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      
+      <TaskList />
+      <CompletionStatusBar />
     </div>
   );
 }

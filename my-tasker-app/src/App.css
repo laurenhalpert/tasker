@@ -75,4 +75,12 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.taskCard{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
 
+.completionStatusBar {
+  margin-left: 45%;
+  margin-top: 30%
+}
